@@ -1,4 +1,4 @@
-
+/* Custom CSS Reset & Layout Fixes */
 html {
     scroll-behavior: smooth;
 }
@@ -9,6 +9,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Transisi Halus Saat Tab Berpindah */
 .page-content {
     animation: fadeIn 0.3s ease-in-out;
 }
@@ -23,6 +24,12 @@ body {
         transform: translateY(0);
     }
 }
+
+/* Smooth transition untuk pergantian tab/page */
+.page-content {
+    transition: opacity 0.3s ease-in-out;
+}
+        
         /* Custom scrollbar gaya dark mode */
 ::-webkit-scrollbar {
     width: 8px;
