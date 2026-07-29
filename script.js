@@ -90,7 +90,7 @@ if (nextBtn && prevBtn) {
 }
 
 function kirimKeWA() {
-    const nomorWA = "6283898555502"; 
+    const nomorWA = "6287893148464"; 
 
     const nama = document.getElementById('nama').value;
     const jumlah = document.getElementById('jumlah').value;
